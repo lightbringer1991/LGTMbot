@@ -5,10 +5,13 @@ Simple script to approve pull requests if there are X number of approvals alread
 ## Requirements
 - PHP7.0
 
-## Installation and execution
+## Installation
 - Install dependencies `composer install`
 - Rename `config.dist.php` to `config.php` and fill in the configuration details
+
+## Execution
 - Run script `php index.php`
+- Log can be viewed in a generated file `activity.log`
 
 ## Tests
 - Run tests `vendor/bin/phpunit`
